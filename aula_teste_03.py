@@ -14,3 +14,6 @@ nome_familia = input = ("oliveira")
 
 print(nome_familia)
 
+nome_pais = Input = ("Brasil")
+
+print(nome_pais)
