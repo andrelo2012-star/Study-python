@@ -17,3 +17,11 @@ print(nome_familia)
 nome_pais = Input = ("Brasil")
 
 print(nome_pais)
+
+nome_cidade_nascimento = input = ("sao paulo")
+
+print(nome_cidade_nascimento)
+
+nome_pai = input =  ("jose")
+
+print(nome_pai)
