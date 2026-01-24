@@ -1,0 +1,30 @@
+v = [10,20,30,40,50,90]
+print(v[0])
+print(v[1])
+print(v[2])
+print(v[3])
+print(v[4])
+print(v[5])
+print(v[-1])
+print(v[-2])
+print(v[:])
+print(v[1:])
+print(v[3:])
+print(v[:2])
+print(v[:4])
+print(v[1:4])
+v[3] = 100
+print(v)
+for x in v:
+    if x == 100:
+        print(x)
+v.append(500)
+v.append(600)
+print(v)
+v.extend([400,500])
+print(v)
+v.remove(500)
+print(v)
+v.pop()
+print(v)
+

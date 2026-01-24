@@ -1,3 +1,4 @@
-input = ("andre oliveira")
+nome = input("andre oliveira")
+print(nome)
 
-print(input)
+
