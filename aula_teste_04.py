@@ -5,16 +5,23 @@
 #else:
 #    print("Menor de idade")
 
-numero = int(input("qual numero"))
+#numero = int(input("qual numero"))
 
 #if numero >= 50:
  #       print("melhor numero")
 #else:
  #       print("pior numero")
 
- calcado = int(input("qual_calcado"))
+#numero = int(input("qual_numero"))
 
- if calcado > 45
-    print("pior numero")
-else
-    print("melhor numero")
+#if numero <= 10:
+#    print("pior numero")
+#else:
+#    print("melhor numero")
+
+altura = int(input("qual_altura"))
+if altura >=180:
+    print("alto")
+else:
+    print("baixo")
+
