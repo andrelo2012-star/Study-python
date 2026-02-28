@@ -1,28 +1,51 @@
-print("Olá, GitHub!")
+#idade = int(input("qual idade"))
 
-nome = input = ("andre oliveira")
-print(nome)
+#if idade >= 18:
+#    print("Maior de idade")
+#else:
+#    print("Menor de idade")
 
-cidade = input =  ("sorocaba")
+#numero = int(input("qual numero"))
 
-print(cidade)
+#if numero >= 50:
+ #       print("melhor numero")
+#else:
+ #       print("pior numero")
 
-bairro = input = ("jd paco")
+#numero = int(input("qual_numero"))
 
-print(bairro)
+#if numero <= 10:
+#    print("pior numero")
+#else:
+#    print("melhor numero")
 
-nome_familia = input = ("oliveira")
+#altura = int(input("qual_altura"))
+#if altura >=180:
+#    print("alto")
+#else:
+#    print("baixo")
 
-print(nome_familia)
+#altura = int(input("qual_altura:"))
+#if altura > 170:
+#    print("alto")
+#else:
+#    print("baixo")
 
-nome_pais = Input = ("Brasil")
+#cabo = float(input("quantos_metros"))
+#if cabo < 1.20:
+#    print("pequeno")
+#else:
+#    print("grande")
 
-print(nome_pais)
+n1 = float(input("digite uma nota"))
+n2 = float(input("digite segunda nota"))
+n3 = float(input("digite terceira nota"))
 
-nome_cidade_nascimento = input = ("sao paulo")
+media = (n1 + n2 + n3) / 3
 
-print(nome_cidade_nascimento)
-
-nome_pai = input =  ("jose")
-
-print(nome_pai)
+if media >= 7:
+    print("Aprovado")
+elif media >= 5:
+    print("Recuperação")
+else :
+    print("Reprovado")
