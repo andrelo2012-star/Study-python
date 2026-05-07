@@ -1,10 +1,21 @@
-#for i in range(1,11): # não inclui o número final
-#    print(i)
+x = int(input("digite um numero x: "))
+print("x=",x)
 
-#for i in range(2,22,2):
-#    print(i)
+y = int(input("digite um numero y: "))
+print("y=",y)
 
-#for i in range(3,33,3):
-#       print(i)
-for i in range(5,55,5):
-            print(i)
+z = int(input("digite um numero z: "))
+print("z=",z)
+
+a = float(input())
+print(f"{x:.2f}")
+
+b = float(input())
+print(f"[x:2f]")
+
+b = float(input("numero_b"))
+print(f"{b:.3f}")
+c = float(input("numero_c"))
+print(f"{c:.5f}")
+d = float(input("numero_d"))
+print(f"{d:.10f}")

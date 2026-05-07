@@ -1,40 +1,18 @@
-#calcado = int(input("qual tamanho"))
+x = [1,2,3,4,5,6,7,8,9]
+print (x[1])
+print (x[8])
+print (x[-1])
+print (x[-2])
+print (x[:])
+print (x[3:])
+print (x[:3])
+print (x[2:4])
+x [3] = 100
+print (x)
+x.append (500)
+print (x)
+x.remove (1)
+print (x)
+x.pop(3)
+print (x)
 
-#if calcado >= 45:
-#    print("tamanho_ruim")
-#else:
-#    print("tamanho_bom")
-
-#idade = int(input("qual idade"))
-
-#if idade > 60:
-#    print ("velho")
-#else:
- #   print("novo")
-
-#roupa = int(input("qual roupa"))
-
-#if roupa >= 48:
-#    print("gordo")
-#else:
-#    print("magro")
-
-#febre = int(input("quanto de febre"))
-
-#if febre >=38:
-#    print("com febre")
-#else:
-#   print("sem febre")
-
-#fio = int(input("qual tamanho do fio"))
-
-#if fio < 10:
-#    print("pequeno")
-#else:
-#    print("grande")
-
-Temperatura = int(input("qual a temperatura"))
-if Temperatura >= 30:
-    print("quente")
-else:
-    print("frio")
